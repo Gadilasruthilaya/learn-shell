@@ -15,3 +15,5 @@ echo -e "\e[35m hello world from magenta\e[0m"
 echo -e "\e[36m hello world from cyan\e[0m"
 
 echo changes made to reflect on server side file
+
+sed 's/nologin/yeslogin' /tmp/passwd
