@@ -16,4 +16,4 @@ echo -e "\e[36m hello world from cyan\e[0m"
 
 echo changes made to reflect on server side file
 
-sed 's/nologin/yeslogin' /tmp/passwd
+sed -e 's/nologin/yeslogin' /tmp/passwd
